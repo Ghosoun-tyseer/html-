@@ -1,0 +1,106 @@
+
+ /*floating */
+
+.parent{
+    background-color: yellow;
+}
+
+
+
+.red {
+    background-color: red;
+    width:50px;
+    height:50px;
+}
+
+.green {
+    background-color: green;
+      width:50px;
+    height:50px;
+}
+
+.blue {
+      background-color:blue;
+        width:50px;
+    height:50px;
+}
+
+
+.float {
+    float: right;
+}
+
+.clear{
+    clear:right;
+}
+
+
+
+/*position*/
+
+.parent2{
+    background: skyblue;
+    width:200px;
+    height: 200px;
+      padding: 10px;
+      position: relative;
+}
+
+.parent2 div{
+    height: 50px;
+  
+}
+
+.one{
+   background: tomato; 
+   position: fixed;
+}
+
+.two{
+    background: gold;
+    position:relative;
+    top:10px;
+    left:40px;
+}
+
+.three{
+ background: darkviolet;
+  position:absolute;
+  bottom: 0;
+  right:0;     /*بروح لتحت ويمين الصفحه لانه الاب ما عنده position*/
+}     /* لو ضفت عند الابposition: relative بصير تحت ويمين عند نسبة للاب مش الشاشه*/
+
+
+.four {
+    background:greenyellow ;
+    position: sticky;
+    top:0px;
+
+}
+
+
+/*display property*/
+
+
+.display {  /* بقدر اتحكم بالطول والعرض لانه  block element*/
+    
+    width:100px ;
+    height: 200px;
+    margin: 10px;
+    
+   
+}
+
+span {  /*  لا يمكن التحكم بالطول والعرض لانه in line element*/
+     width:100px ;
+    height: 200px;
+     margin: 10px;
+}
+
+.display2 { 
+    width:100px ;
+    height: 200px;
+    margin: 10px;
+    display:inline;
+   
+}
