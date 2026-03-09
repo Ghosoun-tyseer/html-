@@ -1,0 +1,38 @@
+body {
+    background-color: beige ;
+}
+
+.div1 {
+    border : solid black 1px;
+    background-color: white;
+    max-width: 80%;
+    padding: 4px;
+}
+
+.div2 {
+    border : dashed black 2px;
+    background-color: white;
+    max-width: 80%;
+    padding: 4px;
+}
+
+.div3 {
+    border : solid black 1px;
+    background-color: white;
+    max-width: 80%;
+    padding: 4px;
+    color: blueviolet;
+}
+
+
+.inner_border {
+     border : dashed red 2px;
+}
+
+.highlight-orange {
+    background-color :darkorange; 
+}
+
+.highlight-yellow{
+     background-color :yellow;
+}
