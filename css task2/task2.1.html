@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    margin:0;   /* بدونه يكون هناك حواف بيضاء حول الصفحه وهي افتراضيه لذلك نجعلها صفر */
+}
+
+.container{
+    display:flex;
+    min-height:100vh; /* Viewport Height لجعل العناصر تاخذ 100% من ارتفاع المتصفح*/
+     
+}
+.first{
+    width:50%;    /* لتاخذ 50% من عرض الاب ال container*/
+    background:orange;
+    color:white;
+    display:flex;
+    justify-content:center;  /* لجعل الكتابه تظهر في منتصف الجزء البرتقالي بالعرض*/
+    align-items:center;    /* لجعل الكتابه تظهر في منتصف الجزء البرتقالي بالطول*/
+    font-size:40px;
+    /* text-align: center;  ما نفعت */
+}
+
+.second{
+    width:50%;  
+    background:blue;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="first">  <!--بالبدايه استخدمت p بس ظهر جزء ابيض فوق وتحت السبب انه p عندها مارجن افتراضي فاذا بدي استخدمها هون بحط مارجن يساوي صفر-->
+First Part
+</div>
+
+<div class="second">
+Second Part
+</div>
+
+</div>
+</body>
+
+
+
+</body>
+</html>
