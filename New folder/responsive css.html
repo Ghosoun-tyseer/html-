@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--
+
+    <style>
+        @media (max-width : 300px)  {
+
+       body{
+background-color: red;
+     }
+         } /*مكان العرض*/
+  /* @media (max-width:800px){  ;كتابتها رح تخلي ناتجها هو يظهر مش الاحمر لانها انكتبت اخر اشي 
+
+   } */
+  @media (min-width:301px) and (max-width : 800px)  {
+
+       body{
+background-color :yellow;
+     }
+    }
+
+    @media print {
+        h1{color:blue}
+    }
+
+    @media screen and (max-width : 800px)  {
+        h1{color:blue}
+    }
+
+     </style> 
+     -->
+
+
+
+     <style>
+
+    .parent{
+        display: flex;
+        gap:10px ;
+        justify-content: center;
+    }
+
+    .item{
+        background-color: red;
+        height: 200px;
+        width: 150px;
+    }
+
+    @media (max-width:600px){
+        .parent{
+            flex-direction: column;
+
+        }
+        .item{
+            width:100%;
+        }
+    }
+
+    @media (min-width:601px) and (max-width:992px)
+    {
+       .parent{flex-wrap: wrap ;} 
+       .item{ width:49%;}
+    }
+     </style>  
+     
+     
+</head>
+<body>
+    <h1>hello</h1>
+    
+    <div class="parent">
+        <div class="item">item</div>
+         <div class="item">item</div>
+         <div class="item">item</div>
+         <div class="item">item</div>
+         <div class="item">item</div>
+         <div class="item">item</div>
+    </div>
+
+</body>
+</html>
