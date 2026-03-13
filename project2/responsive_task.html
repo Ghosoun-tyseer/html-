@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
+    <style>
+
+
+.social-icons a{
+
+color:black;
+font-size:24px;
+margin:10px;
+}
+
+.social-icons a:hover{
+
+color:white;
+
+}
+
+.hero-section{
+
+padding:80px 0;
+}
+
+.hero-title{
+
+font-size:48px;
+font-weight:bold;
+
+}
+
+.hero-text{
+
+font-size:18px;
+
+
+}
+
+.hero-img{
+
+max-width:350px;
+border-radius:10px;
+
+}
+
+.year-circle{
+width:70px;
+height:70px;
+background:#f1f1f1;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+color:#555;
+flex-shrink:0;
+}
+
+.testimonials {
+    margin-top: 40px;    
+}
+
+
+.testimonial {
+    margin-bottom: 3em;
+    background: #fff;
+    padding: 2em;
+    border-right: none;       
+    position: relative;
+    box-shadow: none;          
+}
+
+.testimonial:before {
+    display: none;
+}
+
+
+.testimonial-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.avatar {
+    flex: 0 0 auto;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #c5c5c5;
+    object-fit: cover;
+}
+
+.testimonial-main {
+    flex: 1;
+}
+
+
+.testimonial h3, .testimonial h3 a {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.testimony-body.framed {
+    font-size: .9em;
+    background-color: #f1f1f1;   
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(241, 75, 75); 
+}
+
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+    
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+  <div class="container">
+
+    <a style ="color:rgb(241, 75, 75)"class="navbar-brand" href="#">GT</a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    
+
+      <div class="ms-auto d-flex align-items-center">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+
+        </ul>
+
+        <!-- Social Media -->
+
+      </div>
+<div class="social-icons ms-3">
+
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/home"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+    </div>
+
+  </div>
+  
+</nav>
+
+<section class="hero-section text-center" id="about">
+
+  <div class="container">
+
+  
+    <h1 style ="color:rgb(241, 75, 75)" class="hero-title">Ghosoun Tyseer</h1>
+<br>
+    <p class="hero-text">
+      I’m a full-stack developer with great experience and passion for coding
+      and building plain interfaces. I have a manic love for great high-loaded projects.
+      Plus, I’m an easy-going person and fit in any team. I work remotely and save
+      your budget on my workplace. So, if you have a complicated task, you’ve found
+      the right person.
+    </p>
+
+   
+    <img 
+      src="https://marketplace.canva.com/dHRvE/MAF_wAdHRvE/1/tl/canva-kid-girl-avatar-profile-MAF_wAdHRvE.png"
+      class="img-fluid hero-img mt-3"
+      alt="developer image">
+
+  </div>
+
+</section>
+
+<section id="skills"> 
+<h3 style="text-align: center; color:rgb(241, 75, 75); font-weight: bold; font-size: 40px;">Skills</h3>
+<div  style="background:linear-gradient(rgb(241, 75, 75), rgb(249, 249, 100), rgb(109, 181, 236));border-radius:20px;"class="container py-5">
+
+  <div class="row justify-content-center g-4">
+      
+    <!--card 1-->
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 shadow-sm">
+       
+       <i style="font-size: 40px;" class="fa-solid fa-code-fork"></i>
+       
+        <div class="card-body">
+          <h5 class="card-title">Back-end Developer</h5>
+          <br>
+          <p  style="color:gray"class="card-text">
+            Develop business logic and back-end system to support the product, create API,
+            have vast experience with version control systems.
+          </p>
+
+          <p style="color:rgb(241, 75, 75)"><strong>Languages:</strong></p><br>
+            <p style="color:gray">PHP, Python, Ruby, Java, Perl</p>
+          
+
+          <p style="color:rgb(241, 75, 75)"><strong>My Tools:</strong> </p><br>
+            <p style="color:gray">  Yii<br> Symfony<br> MySQL<br> Node JS<br>PostgreSQL</p>
+         
+
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2-->
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 shadow-sm">
+       <i style="font-size: 40px;"class="fa-solid fa-code"></i>
+
+         <div class="card-body">
+          <h5 class="card-title">Front-end Developer</h5>
+          <br>
+          <p  style="color:gray"class="card-text">I code things from scratch,
+             and gracefully bring the ideas to life and to the bowser,
+              paying maximal attention to your vision of the product.  
+          </p>
+
+          <p style="color:rgb(241, 75, 75)"><strong>Technologies Stack:</strong></p><br>
+            <p style="color:gray">HTML, JavaScript, Slim, CSS,Pug</p>
+          
+
+          <p style="color:rgb(241, 75, 75)"><strong>My Tools:</strong> </p><br>
+            <p style="color:gray"> Bootstrap<br>AJAX<br> AngularJS/ReactJS<br> Github<br> Atom</p>
+         
+
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 shadow-sm">
+        <i style="font-size: 40px;" class="fa-solid fa-fill-drip fa-3x mb-3"></i>
+       <div class="card-body">
+          <h5 class="card-title">Designer</h5>
+          <br>
+          <p  style="color:gray"class="card-text">
+           I create both easy and simple, and more complex
+            and detailed prototypes. Simplicity, convenience,
+             usefulness and effectiveness at the same time
+          </p>
+
+          <p style="color:rgb(241, 75, 75)"><strong>Things I Do:</strong></p><br>
+            <p style="color:gray">UX, UI, Web, Mobile, Apps, Logos</p>
+          
+
+          <p style="color:rgb(241, 75, 75)"><strong>My Tools:</strong> </p><br>
+            <p style="color:gray">  Figma<br> Sketch<br> InVision<br> Origami<br>Axure</p>
+         
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</section>
+
+<section class="projects-section py-5 bg-light" id="projects" >
+
+ 
+  <div class="container">
+   <h2  style="color:rgb(241, 75, 75);font-weight: bold;font-size: 40px;  " class="text-center mb-5">Projects</h2>
+<p style="color: gray; text-align: center;">Have a look at some of the rolled-out projects I'm proud of:</p>
+
+    <!-- Project 1 -->
+    <div class="row mb-4 g-4">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="yellow image.jpg" class="card-img-top" alt="Project 1A">
+        </div>
+      </div>
+
+      <div style=" text-align: center;"class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          
+          <div style="padding: 50px;"class="card-body">
+            <h5 style="text-align: center;color:rgb(240, 185, 19)"class="card-title">WowTaxi</h5> <br>
+            <p style="text-align: center; color:gray"class="card-text">UX design of the WowTaxi company's website, iOS and Android apps by creating easy-to-use 
+                and plain user experience for the customers.</p><br>
+            <a style="background-color:rgb(240, 185, 19); border:none"href="https://github.com/" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+     <div class="row mb-4 g-4">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="blue image.jpg" class="card-img-top" alt="Project 1A">
+        </div>
+      </div>
+
+      <div style=" text-align: center;"class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          
+          <div style="padding: 50px;"class="card-body">
+            <h5 style="text-align: center;color:rgb(84, 79, 231)"class="card-title">Block Expert</h5> <br>
+            <p style="text-align: center; color:gray"class="card-text">Server side authentication web application, primary
+                 double spend protecting (language: nodeJS, database: levelDB), 
+                 development of MVP with consensus and distributed ledger (via p2p).</p><br>
+            <a style="background-color:rgb(84, 79, 231); border:none"href="https://github.com/" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Project 3 -->
+  
+ <div class="row mb-4 g-4">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="red image.jpg" class="card-img-top" alt="Project 1A">
+        </div>
+      </div>
+
+      <div style=" text-align: center;"class="col-md-6">
+        <div class="card h-100 shadow-sm project-card">
+          
+          <div style="padding: 50px;"class="card-body">
+            <h5 style="text-align: center;color:rgb(241, 75, 75)"class="card-title">PayBox</h5> <br>
+            <p style="text-align: center; color:gray"class="card-text">Built a scalable, fault-tolerant architecture solution for a MESOS-based web server. 
+                Processing design, development and implementation.</p><br>
+            <a style="background-color:rgb(241, 75, 75); border:none"href="https://github.com/" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<div class="text-center" style="background: linear-gradient(rgb(241, 75, 75) , rgb(109, 181, 236)) ; padding :100px;font-family:Arial, Helvetica, sans-serif;">
+    <h2 style="text-align: center;color: white;">Interested in working together?</h2><br>
+<p style="text-align: center;color: white;">You can trust your project in my expert hands. I'm always
+     eager to do something nice and complicated. Let's discuss 
+     all the features in a private conversation.</p>
+    <a style="background-color:rgb(235, 79, 79); border:none ; "href="#" class="btn btn-primary">Contact Me</a>
+</div>
+
+
+<section class="experience py-5" id="experience">
+<div class="container">
+
+<h2 style="text-align: center; color:rgb(241, 75, 75); font-weight: bold; font-size: 40px;" class="text-center mb-5">Experience</h2>
+<hr><br>
+<div class="row g-4">
+
+<!-- experience 1 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2015</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);" >MIT</h5>
+<p style="color:gray;">Undergraduate Project in Computer Science and Engineering, A+</p>
+</div>
+
+</div>
+</div>
+
+<!-- experience 2 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2015</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);">University of Boston</h5>
+<p style="color:gray;">Bachelor of Science in Computer Science. Courses in programming languages and algorithms.</p>
+</div>
+
+</div>
+</div>
+
+<!-- experience 3 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2016</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);">DoeWeb</h5>
+<p style="color:gray;">Software Development Intern in a US IT company. Used AngularJS, PHP.</p>
+</div>
+
+</div>
+</div>
+
+<!-- experience 4 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2017</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);">WebLook</h5>
+<p style="color:gray;">Full-Stack developer creating and maintaining websites and apps.</p>
+</div>
+
+</div>
+</div>
+
+<!-- experience 5 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2015</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);">DiveNet</h5>
+<p style="color:gray;">Backend developer creating smart equipment systems.</p>
+</div>
+
+</div>
+</div>
+
+<!-- experience 6 -->
+<div class="col-md-6">
+<div class="d-flex align-items-start">
+
+<div class="year-circle">2018</div>
+
+<div class="ms-3">
+<h5 style="color:rgb(235, 79, 79);">Remote Freelancer</h5>
+<p style="color:gray;">Working remotely with companies worldwide as a full-stack developer.</p>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+
+<h3 style="text-align: center; color:rgb(241, 75, 75); font-weight: bold; font-size: 40px;">Achievements</h3>
+<div  style="background:linear-gradient(rgb(241, 75, 75), rgb(249, 249, 100), rgb(109, 181, 236));border-radius:20px;"class="container py-5">
+<div class="row justify-content-center g-4">
+
+  <!-- card 1 -->
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card text-center p-3 shadow-sm">
+      <i style="font-size: 40px;" class="fa-solid fa-trophy"></i>
+      <div class="card-body">
+        <h5  style="color:rgb(235, 79, 79);" class="card-title">DoeWeb</h5>
+        <p style="color:gray;" class="card-text">
+          <strong>Employee of the month.</strong> Though I was only an intern, I was highly praised at work and given promotion.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card text-center p-3 shadow-sm">
+      <i style="font-size: 40px;" class="fa-solid fa-desktop"></i>
+      <div class="card-body">
+        <h5 style="color:rgb(235, 79, 79);" class="card-title">Hackathon</h5>
+        <p style="color:gray;" class="card-text">
+          <strong>DeveloperWeek NYC 2018 Hackathon.</strong> This was an incredible experience creating the whole project in 24 hours.  
+      </div>
+    </div>
+  </div>
+
+  <!-- card 3 -->
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card text-center p-3 shadow-sm">
+      <i style="font-size: 40px;"  class="fa-solid fa-award"></i>
+      <div class="card-body">
+        <h5 style="color:rgb(235, 79, 79);" class="card-title">Awwwards</h5>
+        <p style="color:gray;" class="card-text">
+          <strong>Honorable mention. </strong> Being noticed means much to me and my client for whom the site was developed.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 4 -->
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card text-center p-3 shadow-sm">
+      <i style="font-size: 40px;" class="fa-solid fa-arrow-trend-up"></i>
+      <div class="card-body">
+        <h5 style="color:rgb(235, 79, 79);" class="card-title">Web Summit</h5>
+        <p style="color:gray;" class="card-text">
+          <strong>Speaker. </strong> Speaking at Web Summit is stunning, encouraging and inspiring at the same time.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+</section>
+
+<section id="events">
+  <br><br>
+<h3 style="text-align: center; color:rgb(241, 75, 75); font-weight: bold; font-size: 40px;">Events With Me</h3>
+<p style="text-align: center; color: gray;"> I regularly take part in talks, forums, conferences and panel discussions to share experience, communicate with colleagues and find new opportunities. So you can always say hi!</p>
+<div  style="background:linear-gradient(rgb(241, 75, 75), rgb(249, 249, 100), rgb(109, 181, 236));border-radius:20px;"class="container py-5">
+
+  <div class="row justify-content-center g-4">
+      
+    <!--card 1-->
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+       
+        <div class="card-body">
+          <p style="color:gray; text-align: center;">Conference </p>
+          <h5 class="card-title">WebDev Conference</h5>
+          <h6 style="color:rgb(241, 75, 75); text-align: center;">05 July Friday</h6>
+          <br>
+          <p  style="color:gray; text-align: center; "class="card-text">
+            Global Arena, San Francisco <br>09:00 - 18:00
+          </p>
+
+        <a style="background-color:rgb(241, 75, 75); border:none"href="#" class="btn btn-primary">Attend Event</a>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2-->
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+       
+        <div class="card-body">
+          <p style="color:gray; text-align: center;"> Panel Discussion </p>
+          <h5 class="card-title">Backend Security Issues </h5>
+          <h6 style="color:rgb(241, 75, 75); text-align: center;">20 July Saturday</h6>
+          <br>
+          <p  style="color:gray; text-align: center; "class="card-text">
+            Central Hyde Gallery, Brooklyn, NY <br>10:30 - 14:00
+          </p>
+
+        <a style="background-color:rgb(241, 75, 75); border:none"href="#" class="btn btn-primary">Attend Event</a>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+ 
+    <div class="col-md-4">
+      <div class="card text-center p-3 shadow-sm">
+       
+        <div class="card-body">
+          <p style="color:gray; text-align: center;">   Workshop </p>
+          <h5 class="card-title">UX Workshop</h5>
+          <h6 style="color:rgb(241, 75, 75); text-align: center;">14 August Wednesday</h6>
+          <br>
+          <p  style="color:gray; text-align: center; "class="card-text">
+           Fellows Riverside Garden, Columbus <br>19:00 - 21:30
+          </p>
+
+        <a style="background-color:rgb(241, 75, 75); border:none"href="#" class="btn btn-primary">Attend Event</a>
+         
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<br>
+
+<section>
+<div class="container testimonials">
+ 
+<h3 style="text-align: center; color:rgb(241, 75, 75); font-weight: bold; font-size: 40px;"> Warm Words From My Collegues</h3>
+<hr>
+
+    <!-- Testimonial 1 -->
+    <div class="testimonial">
+        <div class="testimonial-content d-flex align-items-start">
+            
+            <div class="avatar me-3">
+                <img class="img-circle" src="https://img.freepik.com/premium-photo/management-consultant-vector-flat-style-illustration_1033579-116640.jpg" alt="Fred M.">
+            </div>
+
+           
+            <div class="testimonial-main">
+                <h3 style="color:rgb(241, 75, 75);" class="media-heading">Fred M.</h3>
+                <p style="font-style:italic; color:gray;">Team Lead, DoeWeb</p>
+         
+                <p class="testimony-body framed">
+                    Alex is a really talented guy with strong knowledge in different web development areas. He likes
+                    complicated tasks and enjoys solving them. Under my mentoring, Alex quickly became a strong middle developer, 
+                    so I am proud of his success. I wish Alex all the best and further rapid development!
+                </p>
+            </div>
+
+        </div>
+    </div>
+ <!-- Testimonial 2 -->
+    <div class="testimonial">
+        <div class="testimonial-content d-flex align-items-start">
+            <div class="avatar me-3">
+                <img class="img-circle" src="https://tse2.mm.bing.net/th/id/OIP.lLSxQWISPLqk5twnUDBwEwAAAA?pid=ImgDet&w=181&h=181&c=7&dpr=1.3&o=7&rm=3" alt="Jessica K.">
+            </div>
+            <div class="testimonial-main">
+                <h3 style="color:rgb(241, 75, 75);" class="media-heading">Jessica K.</h3>
+                <p style="font-style:italic; color:gray;">Tech Lead, WebLook</p>
+                <p class="testimony-body framed">
+                Alex loves what he does, and it's a great quality for a full-stack
+                 developer. All of our clients are totally satisfied with the sites developed by Alex. When we need some extra modifications we still work with Alex though he has left us for remote work.
+                 Anyway, he is a great guy, real professional and a team-player.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="testimonial">
+        <div class="testimonial-content d-flex align-items-start">
+            <div class="avatar me-3">
+                <img class="img-circle" src="https://img.freepik.com/premium-vector/smiling-businessman-suit_339976-9731.jpg" alt="John W.">
+            </div>
+            <div class="testimonial-main">
+                <h3 style="color:rgb(241, 75, 75);" class="media-heading">John W.</h3>
+                <p style="font-style:italic; color:gray;">CEO, WowTaxi</p>
+                <p class="testimony-body framed">
+                 Creating a UX design from scratch is not an easy work,
+                  especially in terms working with a startup, as everything is changing every day :) Still, Alex was very comprehensive and understanding,
+                  he did a great work and saved our budget. Totally recommend!
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<section class="contact-section py-5 bg-light">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      
+     
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 style="color: rgb(241,75,75); font-weight:bold;">Any Propositions?</h3>
+        <p style="color: rgb(241,75,75);">
+          Complete the form below and let's have a talk on your project!
+        </p>
+      </div>
+      
+   
+      <div class="col-lg-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="phone" placeholder="Phone number">
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Send Message</button>
+        </form>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+<footer style="background-color:rgb(198, 26, 26);"class="footer-section text-light py-4">
+  <div class="container">
+    <div class="row">
+
+     
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h4 style="color: white; font-weight: bold;">Ghosoun Tyseer</h4>
+         </div>
+
+  
+      <div class="col-md-4 mb-3 mb-md-0">
+  
+        <ul class="list-unstyled">
+          <li><a href="#about" class="text-light text-decoration-none">About Me</a></li>
+          <li><a href="#skills" class="text-light text-decoration-none">Skills</a></li>
+          <li><a href="#portfolio" class="text-light text-decoration-none">Projects</a></li>
+          <li><a href="#contact" class="text-light text-decoration-none">Experience</a></li>
+            <li><a href="#contact" class="text-light text-decoration-none">Events</a></li>
+        </ul>
+      </div>
+
+   
+      
+<div style="text-align: center; " class="social-icons ms-3">
+
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/home"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+
+
+        </div>
+
+    </div>
+
+  
+    <div class="text-center mt-4">
+      <p class="mb-0">&copy; 2026 MyPortfolio.&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
